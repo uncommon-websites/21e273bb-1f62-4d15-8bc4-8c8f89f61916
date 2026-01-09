@@ -3,40 +3,40 @@
 
   const solutions = [
     {
-      tag: "FIND",
-      title: "ZERO IN ON THE BUYERS WHO MATTER",
-      description: "Build, refine, and activate your ideal lead list directly within Reevo. We automatically dedupe and map new contacts to accounts so your data is always clean and actionable.",
-      color: "bg-orange-50",
-      accent: "bg-orange-500",
-      textAccent: "text-orange-600",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop" // Dashboard/List view
+      tag: "ENGAGEMENT",
+      title: "SERVICES-LED, PRODUCT-ENABLED",
+      description: "We partner with your revenue leaders and account teams through structured workshops and working sessions. No generic frameworks—every model reflects your specific operating environment and constraints.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop"
     },
     {
-      tag: "CONNECT",
-      title: "BUILD PIPELINE WITHOUT THE PATCHWORK",
-      description: "Dialer, multi-channel sequences, and email deliverability tools built directly into your CRM. Manage your entire outreach without ever switching tabs.",
-      color: "bg-pink-50",
-      accent: "bg-pink-500",
-      textAccent: "text-pink-600",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" // Analytics/Sequence view
+      tag: "DELIVERABLE",
+      title: "SHARED MODELS THAT CIRCULATE",
+      description: "You get a testable, visual map of how your key outcomes are actually produced. Not a static deck—a living model your buyer can critique, iterate, and share internally to build alignment.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
     },
     {
-      tag: "SELL",
-      title: "TURN CONVERSATIONS INTO CONVERSIONS",
-      description: "Use natively built AI tools to distill call insights, generate tasks, and draft follow-up emails with relevant context, so you keep momentum strong.",
-      color: "bg-green-50",
-      accent: "bg-green-500",
-      textAccent: "text-green-600",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2788&auto=format&fit=crop" // Video call/Person
+      tag: "OUTCOME",
+      title: "FROM STALLED TO CLOSED",
+      description: "Deals unstall when everyone agrees on what drives the result. Our models replace political deadlock with clarity, turning complex accounts into repeatable wins you can scale.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2788&auto=format&fit=crop"
     },
     {
-      tag: "MANAGE",
-      title: "OPERATE FROM A SINGLE SOURCE OF TRUTH",
-      description: "Your pipeline manages itself with automated activity logging and stage gating. You can trust your forecast because it's based on real activity, not manual updates.",
-      color: "bg-yellow-50",
-      accent: "bg-yellow-500",
-      textAccent: "text-yellow-600",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop" // Chart view
+      tag: "LEVERAGE",
+      title: "REPEATABLE FRAMEWORKS AT SCALE",
+      description: "Start with one high-stakes deal, then extend the causal framework across similar accounts. Over time, you build a library of validated models that accelerate every new engagement.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop"
     }
   ];
 </script>
@@ -44,15 +44,15 @@
 <section class="py-24 px-4 sm:px-6 lg:px-8 font-body">
   <div class="max-w-7xl mx-auto">
     <!-- Header -->
-    <div class="mb-24">
+    <div class="mb-24" id="approach">
       <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">R</div>
-        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">The Solution: Reevo</span>
+        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">→</div>
+        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Our Approach</span>
       </div>
       
       <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight text-gray-900">
-        Prospect-to-close in a single tab. <br />
-        <span class="text-gray-500">More functionality. Less complexity. No "stack" required.</span>
+        Clarity over complexity. <br />
+        <span class="text-gray-500">We build structured causal models that turn stalled deals into shared understanding.</span>
       </h2>
     </div>
 

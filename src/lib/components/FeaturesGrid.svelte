@@ -1,53 +1,49 @@
 <script>
-  import { ArrowRight, Search, Link, Zap, Layers, Database, Mail, Phone, Calendar, BarChart, Users, MessageSquare, CheckSquare, Settings } from 'lucide-svelte';
+  import { Target, GitBranch, Users, CheckCircle } from 'lucide-svelte';
 
-  const features = [
+  const methodology = [
     {
-      title: "Find",
-      icon: Search,
-      color: "bg-orange-100 text-orange-600",
+      title: "Discovery",
+      icon: Target,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "TAM sourcing", icon: Database },
-        { label: "Contact enrichment", icon: Users },
-        { label: "Company enrichment", icon: Settings },
-        { label: "Intent signals", icon: BarChart, tag: "SOON" },
-        { label: "Lead scoring", icon: Zap, tag: "SOON" }
+        "Map key outcomes",
+        "Identify stakeholders",
+        "Surface assumptions",
+        "Define success metrics"
       ]
     },
     {
-      title: "Connect",
-      icon: Link,
-      color: "bg-pink-100 text-pink-600",
+      title: "Causal Mapping",
+      icon: GitBranch,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "Domain & inbox purchase", icon: Mail },
-        { label: "Inbox warming", icon: Zap },
-        { label: "Sequencing", icon: Settings },
-        { label: "Dialer", icon: Phone },
-        { label: "Scheduler", icon: Calendar }
+        "Model driver relationships",
+        "Test second-order effects",
+        "Map political constraints",
+        "Validate with data"
       ]
     },
     {
-      title: "Sell",
-      icon: Zap,
-      color: "bg-green-100 text-green-600",
+      title: "Model Building",
+      icon: Users,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "Meeting recordings", icon: MessageSquare },
-        { label: "Meeting intelligence", icon: Zap },
-        { label: "Smart email composer", icon: Mail },
-        { label: "Smart task logging", icon: CheckSquare },
-        { label: "CPQ", icon: Settings, tag: "SOON" }
+        "Construct shared view",
+        "Make testable predictions",
+        "Document counterintuitive insights",
+        "Create reusable frameworks"
       ]
     },
     {
-      title: "Manage",
-      icon: Layers,
-      color: "bg-yellow-100 text-yellow-600",
+      title: "Activation",
+      icon: CheckCircle,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "CRM", icon: Database },
-        { label: "Ask Reevo Copilot", icon: MessageSquare },
-        { label: "Reporting", icon: BarChart },
-        { label: "Workflows", icon: Zap },
-        { label: "Integrations", icon: Link }
+        "Align internal teams",
+        "Enable buyer circulation",
+        "Track leading indicators",
+        "Iterate on feedback"
       ]
     }
   ];
@@ -56,40 +52,36 @@
 <section class="bg-gray-50 py-24 px-4 sm:px-6 lg:px-8 font-body">
   <div class="max-w-7xl mx-auto">
     <!-- Header -->
-    <div class="mb-20">
+    <div class="mb-20" id="method">
       <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">R</div>
-        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Built Different</span>
+        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">→</div>
+        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Our Method</span>
       </div>
       
       <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight text-gray-900">
-        Win more with less friction. <span class="text-gray-500">Reevo streamlines prospecting, outreach, and pipeline management so you can focus on selling—not admin work.</span>
+        From stalled to moving. <span class="text-gray-500">We build structured causal models that replace fuzzy drivers with testable reality—so your team can act with confidence.</span>
       </h2>
     </div>
 
     <!-- Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
-      {#each features as category}
+      {#each methodology as phase}
         <div class="flex flex-col h-full">
-          <h3 class="font-bold text-lg mb-6 border-b border-gray-200 pb-4">{category.title}</h3>
+          <div class="flex items-center gap-3 mb-6 pb-4 border-b border-gray-200">
+            <div class={`w-8 h-8 rounded flex items-center justify-center shrink-0 ${phase.color}`}>
+              <svelte:component this={phase.icon} size={16} />
+            </div>
+            <h3 class="font-bold text-lg">{phase.title}</h3>
+          </div>
           
-          <ul class="space-y-4 flex-grow mb-8">
-            {#each category.items as item}
-              <li class="flex items-center gap-3 text-sm text-gray-700">
-                <div class={`w-6 h-6 rounded flex items-center justify-center shrink-0 ${category.color}`}>
-                  <svelte:component this={item.icon} size={14} />
-                </div>
-                <span>{item.label}</span>
-                {#if item.tag}
-                  <span class="text-[10px] font-bold bg-gray-100 text-gray-500 px-1.5 py-0.5 rounded uppercase tracking-wider">{item.tag}</span>
-                {/if}
+          <ul class="space-y-3 flex-grow">
+            {#each phase.items as item}
+              <li class="flex items-start gap-2 text-sm text-gray-700">
+                <span class="w-1 h-1 rounded-full bg-primary-500 mt-2 shrink-0"></span>
+                <span>{item}</span>
               </li>
             {/each}
           </ul>
-          
-          <a href="#" class="inline-flex items-center text-sm font-bold underline decoration-1 underline-offset-4 hover:text-gray-600 transition-colors mt-auto">
-            Learn more
-          </a>
         </div>
       {/each}
     </div>
