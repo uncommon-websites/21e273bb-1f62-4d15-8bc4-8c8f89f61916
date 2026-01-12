@@ -1,73 +1,68 @@
-<script>
-  import { ArrowRight } from 'lucide-svelte';
+<script lang="ts">
+  import { AlertCircle, TrendingDown, Users } from 'lucide-svelte';
 </script>
 
-<section class="bg-gray-950 text-white py-24 px-4 sm:px-6 lg:px-8 font-body relative overflow-hidden">
-  <!-- Top Pattern -->
-  <div class="absolute top-0 left-0 w-full h-24 opacity-20 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
-  <div class="absolute top-0 left-0 w-full h-12 opacity-20" 
-       style="background-image: linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px); background-size: 4px 4px;">
-  </div>
-  <div class="absolute top-0 left-0 w-full h-12 bg-gradient-to-b from-gray-950/0 to-gray-950"></div>
-
-  <!-- Bottom Pattern -->
-   <div class="absolute bottom-0 left-0 w-full h-12 opacity-20" 
-       style="background-image: linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px); background-size: 4px 4px;">
-  </div>
-  <div class="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-gray-950/0 to-gray-950"></div>
-
-  <div class="max-w-7xl mx-auto relative z-10">
-    <!-- Header -->
-    <div class="mb-20">
-      <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-white text-black flex items-center justify-center text-xs font-bold rounded-sm">!</div>
-        <span class="text-xs font-bold tracking-widest uppercase text-gray-400">The Problem</span>
-      </div>
-      
-      <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight">
-        Your high-stakes deals stall, <span class="text-gray-500">not because your product is wrong, but because your stakeholders can't agree on what actually drives the outcome.</span>
+<section class="bg-white py-24 px-4 sm:px-6 lg:px-8 font-body">
+  <div class="max-w-7xl mx-auto">
+    <!-- Section header -->
+    <div class="max-w-3xl mx-auto text-center mb-20">
+      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl text-gray-950 mb-6 leading-tight">
+        You have data. You lack clarity.
       </h2>
-      
-      <p class="mt-8 text-sm font-bold text-gray-400 uppercase tracking-wider">Three forces that kill momentum:</p>
+      <p class="text-xl text-gray-600 leading-relaxed">
+        Dashboards, playbooks, and opinions everywhere. But no clear answer to what's actually blocking revenue.
+      </p>
     </div>
 
-    <!-- Cards Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- Card 1 -->
-      <div class="group">
-        <div class="aspect-square bg-gray-900 rounded-sm overflow-hidden mb-6 relative">
-          <img src="/generated/image-diverse-group-of-business-leaders-in-a-t-1767917124386-1.webp" alt="Political gridlock" class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+    <!-- Problem grid -->
+    <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+      <!-- Problem 1 -->
+      <div class="space-y-4 group cursor-default">
+        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-primary-100 group-hover:scale-110">
+          <TrendingDown class="text-gray-700 transition-colors duration-300 group-hover:text-primary-600" size={24} />
         </div>
-        <h3 class="font-bold text-xl mb-3">Political gridlock</h3>
-        <p class="text-gray-400 text-sm leading-relaxed">
-          Every stakeholder has their own narrative. Without a shared model, you're stuck mediating opinions instead of testing reality.
+        <h3 class="font-display font-semibold text-xl text-gray-950 transition-colors duration-300 group-hover:text-primary-600">
+          Too many metrics, no meaning
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          Your CRM is full of data points, but you're still guessing which lever to pull. Numbers without context are just noise.
         </p>
       </div>
 
-      <!-- Card 2 -->
-      <div class="group">
-        <div class="aspect-square bg-gray-900 rounded-sm overflow-hidden mb-6 relative">
-          <img src="/generated/image-business-professional-looking-confused-a-1767917126723-2.webp" alt="Untested assumptions" class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+      <!-- Problem 2 -->
+      <div class="space-y-4 group cursor-default">
+        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-primary-100 group-hover:scale-110">
+          <Users class="text-gray-700 transition-colors duration-300 group-hover:text-primary-600" size={24} />
         </div>
-        <h3 class="font-bold text-xl mb-3">Untested assumptions</h3>
-        <p class="text-gray-400 text-sm leading-relaxed">
-          Generic discovery decks capture symptoms, not causes. You're building on sand when you need bedrock.
+        <h3 class="font-display font-semibold text-xl text-gray-950 transition-colors duration-300 group-hover:text-primary-600">
+          Misaligned teams
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          Leadership has one view, sales has another, and customers experience something else entirely. The disconnect kills deals.
         </p>
       </div>
 
-      <!-- Card 3 -->
-      <div class="group">
-        <div class="aspect-square bg-gray-900 rounded-sm overflow-hidden mb-6 relative">
-          <img src="/generated/image-blurred-abstract-business-data-and-chart-1767917129647-3.webp" alt="Fuzzy drivers" class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+      <!-- Problem 3 -->
+      <div class="space-y-4 group cursor-default">
+        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-primary-100 group-hover:scale-110">
+          <AlertCircle class="text-gray-700 transition-colors duration-300 group-hover:text-primary-600" size={24} />
         </div>
-        <h3 class="font-bold text-xl mb-3">Fuzzy drivers</h3>
-        <p class="text-gray-400 text-sm leading-relaxed">
-          "Improve efficiency" sounds good in a deck. But which lever actually moves the needle? Vague goals produce vague results.
+        <h3 class="font-display font-semibold text-xl text-gray-950 transition-colors duration-300 group-hover:text-primary-600">
+          Generic playbooks don't work
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          You've outgrown cookie-cutter methodologies. Your market is unique, your buyers are sophisticated, and you need precision.
         </p>
       </div>
+    </div>
+
+    <!-- Image -->
+    <div class="mt-20 max-w-5xl mx-auto overflow-hidden rounded-xl">
+      <img 
+        src="/generated/image-business-team-collaborating-around-a-whi-1767929566065-1.webp" 
+        alt="Team collaborating on strategy"
+        class="w-full h-auto rounded-xl transition-transform duration-500 hover:scale-105"
+      />
     </div>
   </div>
 </section>
