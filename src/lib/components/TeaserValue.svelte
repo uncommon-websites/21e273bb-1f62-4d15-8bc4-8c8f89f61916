@@ -9,7 +9,7 @@
       </h2>
       
       <p class="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-        drvrs maps what's actually governing your deal. The goals your buyer is trying to hit, the constraints in their way, the stakeholders who matter, and the headwinds that could kill it.
+        Map what's actually governing your deal. The goals your buyer is trying to hit, the constraints in their way, the stakeholders who matter, and the headwinds that could kill it.
       </p>
       
       <div class="pt-8 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
