@@ -4,35 +4,35 @@
   const complexities = [
     {
       icon: UserX,
-      text: "Your champion just got reassigned",
+      text: "Your champion could take another job",
       color: "bg-gray-900 border-gray-800",
       iconBg: "bg-gray-800/50",
       iconColor: "text-gray-300"
     },
     {
       icon: FileText,
-      text: "Legal wants 47 redlines reviewed",
+      text: "Legal definitely has 47 red lines for you",
       color: "bg-gray-900 border-gray-800",
       iconBg: "bg-gray-800/50",
       iconColor: "text-gray-300"
     },
     {
       icon: HelpCircle,
-      text: "The CFO who you've never met has questions",
+      text: "The CFO who you've never met will have questions",
       color: "bg-gray-900 border-gray-800",
       iconBg: "bg-gray-800/50",
       iconColor: "text-gray-300"
     },
     {
       icon: Monitor,
-      text: "IT security needs another demo",
+      text: "Odds are IT security will need another demo",
       color: "bg-gray-900 border-gray-800",
       iconBg: "bg-gray-800/50",
       iconColor: "text-gray-300"
     },
     {
       icon: DollarSign,
-      text: "Budget got frozen until Q3",
+      text: "Someone's budget will get frozen until Q3",
       color: "bg-gray-900 border-gray-800",
       iconBg: "bg-gray-800/50",
       iconColor: "text-gray-300"
