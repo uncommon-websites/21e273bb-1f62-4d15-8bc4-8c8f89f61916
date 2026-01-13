@@ -16,10 +16,10 @@
       </div>
       
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-        <button class="bg-primary-500 text-white px-10 py-5 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-200 flex items-center justify-center gap-2 group text-lg">
+        <a href="https://tally.so/r/VLPjKa" target="_blank" rel="noopener noreferrer" class="bg-primary-500 text-white px-10 py-5 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-200 flex items-center justify-center gap-2 group text-lg">
           <span>Request access</span>
           <ArrowRight size={20} class="group-hover:translate-x-1 transition-transform" />
-        </button>
+        </a>
       </div>
     </div>
   </div>
