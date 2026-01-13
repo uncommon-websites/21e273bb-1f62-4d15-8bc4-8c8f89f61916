@@ -47,7 +47,7 @@
   ];
 </script>
 
-<section class="relative bg-gray-950 py-24 px-4 sm:px-6 lg:px-8 font-body overflow-hidden">
+<section class="relative py-24 px-4 sm:px-6 lg:px-8 font-body overflow-hidden" style="background-color: #012c21;">
   <!-- Subtle background pattern -->
   <div class="absolute inset-0 opacity-5">
     <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
