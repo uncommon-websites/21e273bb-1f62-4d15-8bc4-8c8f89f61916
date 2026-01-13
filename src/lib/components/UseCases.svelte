@@ -23,7 +23,7 @@
             <div class="w-14 h-14 bg-primary-500 rounded-xl flex items-center justify-center flex-shrink-0">
               <Rocket class="text-white" size={26} />
             </div>
-            <h3 class="font-display font-bold text-3xl text-gray-950">
+            <h3 class="font-display font-bold text-3xl" style="color: #012c21;">
               Land with diagnostics
             </h3>
           </div>

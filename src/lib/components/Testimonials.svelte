@@ -5,7 +5,7 @@
   <div class="max-w-7xl mx-auto">
     <!-- Section header -->
     <div class="max-w-3xl mx-auto text-center mb-20">
-      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl text-gray-950 mb-6 leading-tight">
+      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl mb-6 leading-tight" style="color: #012c21;">
         Results that speak for themselves
       </h2>
       <p class="text-xl text-gray-600 leading-relaxed">
@@ -46,7 +46,7 @@
             class="w-16 h-16 rounded-full object-cover flex-shrink-0"
           />
           <div>
-            <div class="font-display font-semibold text-lg text-gray-950">
+            <div class="font-display font-semibold text-lg" style="color: #012c21;">
               Marcus Rodriguez
             </div>
             <div class="text-sm text-gray-600">

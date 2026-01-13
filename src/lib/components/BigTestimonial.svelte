@@ -1,6 +1,6 @@
 <section class="bg-gray-100 py-24 px-4 sm:px-6 lg:px-8 font-body">
   <div class="max-w-7xl mx-auto">
-    <div class="relative bg-black rounded-sm overflow-hidden h-[500px] flex items-end">
+    <div class="relative rounded-sm overflow-hidden h-[500px] flex items-end" style="background-color: #012c21;">
         <!-- Background Image -->
         <img src="/generated/image-senior-business-executive-in-a-moment-of-1767917139450-7.webp" alt="Revenue leader" class="absolute inset-0 w-full h-full object-cover grayscale opacity-60" />
         

@@ -4,7 +4,7 @@
 <section class="relative bg-white py-24 px-4 sm:px-6 lg:px-8 font-body">
   <div class="max-w-4xl mx-auto">
     <div class="text-center space-y-8">
-      <h2 class="font-display font-bold text-4xl sm:text-5xl text-gray-950 leading-tight">
+      <h2 class="font-display font-bold text-4xl sm:text-5xl leading-tight" style="color: #012c21;">
         Built for teams who close real deals
       </h2>
       

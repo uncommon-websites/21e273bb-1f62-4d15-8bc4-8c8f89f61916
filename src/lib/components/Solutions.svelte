@@ -66,7 +66,7 @@
               {solution.tag}
             </span>
             
-            <h3 class="font-display font-bold text-4xl sm:text-5xl uppercase leading-[0.9] mb-6 text-gray-900">
+            <h3 class="font-display font-bold text-4xl sm:text-5xl uppercase leading-[0.9] mb-6" style="color: #012c21;">
               {solution.title}
             </h3>
             

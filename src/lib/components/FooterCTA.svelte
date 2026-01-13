@@ -6,7 +6,7 @@
   <div class="max-w-4xl mx-auto text-center">
     <div class="space-y-10">
       <div class="space-y-6">
-        <h2 class="font-display font-bold text-5xl sm:text-6xl md:text-7xl text-gray-950 leading-tight">
+        <h2 class="font-display font-bold text-5xl sm:text-6xl md:text-7xl leading-tight" style="color: #012c21;">
           Ready to see the full picture?
         </h2>
         

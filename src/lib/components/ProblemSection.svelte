@@ -6,7 +6,7 @@
   <div class="max-w-7xl mx-auto">
     <!-- Section header -->
     <div class="max-w-3xl mx-auto text-center mb-20">
-      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl text-gray-950 mb-6 leading-tight">
+      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl mb-6 leading-tight" style="color: #012c21;">
         You have data. You lack clarity.
       </h2>
       <p class="text-xl text-gray-600 leading-relaxed">
@@ -47,7 +47,7 @@
         <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-primary-100 group-hover:scale-110">
           <AlertCircle class="text-gray-700 transition-colors duration-300 group-hover:text-primary-600" size={24} />
         </div>
-        <h3 class="font-display font-semibold text-xl text-gray-950 transition-colors duration-300 group-hover:text-primary-600">
+        <h3 class="font-display font-semibold text-xl transition-colors duration-300 group-hover:text-primary-600" style="color: #012c21;">
           Generic playbooks don't work
         </h3>
         <p class="text-gray-600 leading-relaxed">

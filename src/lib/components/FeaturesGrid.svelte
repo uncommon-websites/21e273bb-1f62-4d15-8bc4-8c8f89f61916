@@ -54,11 +54,11 @@
     <!-- Header -->
     <div class="mb-20" id="method">
       <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">→</div>
+        <div class="w-5 h-5 text-white flex items-center justify-center text-xs font-bold rounded-sm" style="background-color: #012c21;">→</div>
         <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Our Method</span>
       </div>
       
-      <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight text-gray-900">
+      <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight" style="color: #012c21;">
         From stalled to moving. <span class="text-gray-500">We build structured causal models that replace fuzzy drivers with testable reality—so your team can act with confidence.</span>
       </h2>
     </div>

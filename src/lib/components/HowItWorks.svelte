@@ -26,7 +26,7 @@
             <div class="text-sm font-semibold text-primary-600 tracking-wide uppercase">
               Step 1
             </div>
-            <h3 class="font-display font-bold text-2xl text-gray-950">
+            <h3 class="font-display font-bold text-2xl" style="color: #012c21;">
               Diagnose your GTM
             </h3>
             <p class="text-gray-600 leading-relaxed">

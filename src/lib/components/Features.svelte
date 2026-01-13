@@ -6,7 +6,7 @@
   <div class="max-w-7xl mx-auto">
     <!-- Section header -->
     <div class="max-w-3xl mx-auto text-center mb-20">
-      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl text-gray-950 mb-6 leading-tight">
+      <h2 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl mb-6 leading-tight" style="color: #012c21;">
         Built for leaders who demand clarity
       </h2>
       <p class="text-xl text-gray-600 leading-relaxed">
@@ -52,7 +52,7 @@
           <Target class="text-primary-600 transition-colors duration-300 group-hover:text-primary-700" size={26} />
         </div>
         <div class="space-y-3">
-          <h3 class="font-display font-bold text-2xl text-gray-950 transition-colors duration-300 group-hover:text-primary-600">
+          <h3 class="font-display font-bold text-2xl transition-colors duration-300 group-hover:text-primary-600" style="color: #012c21;">
             Built for your reality
           </h3>
           <p class="text-gray-600 leading-relaxed text-lg">

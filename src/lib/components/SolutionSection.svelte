@@ -17,7 +17,7 @@
       <!-- Right: Content -->
       <div class="space-y-8">
         <div class="space-y-4">
-          <h2 class="font-display font-bold text-4xl sm:text-5xl text-gray-950 leading-tight">
+          <h2 class="font-display font-bold text-4xl sm:text-5xl leading-tight" style="color: #012c21;">
             One framework. Total clarity.
           </h2>
           <p class="text-xl text-gray-600 leading-relaxed">
@@ -50,7 +50,7 @@
               </div>
             </div>
             <div>
-              <h3 class="font-display font-semibold text-lg text-gray-950 mb-2 transition-colors duration-300 group-hover:text-primary-600">
+              <h3 class="font-display font-semibold text-lg mb-2 transition-colors duration-300 group-hover:text-primary-600" style="color: #012c21;">
                 Cascades through every level
               </h3>
               <p class="text-gray-600 leading-relaxed">

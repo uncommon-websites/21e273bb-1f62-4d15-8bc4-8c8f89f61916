@@ -4,7 +4,7 @@
 <section class="relative bg-gray-50 py-24 px-4 sm:px-6 lg:px-8 font-body">
   <div class="max-w-5xl mx-auto">
     <div class="text-center space-y-6">
-      <h2 class="font-display font-bold text-4xl sm:text-5xl text-gray-950 leading-tight">
+      <h2 class="font-display font-bold text-4xl sm:text-5xl leading-tight" style="color: #012c21;">
         One view. The whole story.
       </h2>
       

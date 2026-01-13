@@ -7,7 +7,7 @@
     <div class="max-w-4xl mx-auto text-center">
       <div class="space-y-10">
         <div class="space-y-6">
-          <h1 class="font-display font-bold text-6xl sm:text-7xl md:text-8xl text-gray-950 leading-[1.1]">
+          <h1 class="font-display font-bold text-6xl sm:text-7xl md:text-8xl leading-[1.1]" style="color: #012c21;">
             See what's really<br/>driving your deals
           </h1>
           

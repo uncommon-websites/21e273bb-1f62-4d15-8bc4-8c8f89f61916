@@ -3,12 +3,12 @@
 
 <section class="bg-white py-32 px-4 sm:px-6 lg:px-8 font-body border-t border-gray-100">
   <div class="max-w-4xl mx-auto text-center">
-    <h2 class="font-display font-bold text-4xl sm:text-6xl md:text-7xl leading-tight mb-12 text-black">
+    <h2 class="font-display font-bold text-4xl sm:text-6xl md:text-7xl leading-tight mb-12" style="color: #012c21;">
       This isn't for everyone.
     </h2>
     
     <div class="space-y-8 text-left sm:text-center">
-      <p class="text-xl sm:text-2xl text-gray-900 leading-relaxed font-medium">
+      <p class="text-xl sm:text-2xl leading-relaxed font-medium" style="color: #012c21;">
         This is for B2B teams doing meaningful revenue who are tired of guessing.
       </p>
       

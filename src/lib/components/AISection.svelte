@@ -9,7 +9,7 @@
       <!-- Text -->
       <div>
         <div class="flex items-center gap-2 mb-6">
-            <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">→</div>
+            <div class="w-5 h-5 text-white flex items-center justify-center text-xs font-bold rounded-sm" style="background-color: #012c21;">→</div>
             <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Causal Modeling</span>
         </div>
 
@@ -73,7 +73,7 @@
                     </div>
                     
                     <div class="bg-gray-50 p-4 rounded border border-gray-100">
-                        <p class="text-xs font-bold text-gray-900 mb-2">Counterintuitive insight:</p>
+                        <p class="text-xs font-bold mb-2" style="color: #012c21;">Counterintuitive insight:</p>
                         <p class="text-xs text-gray-600 leading-relaxed">
                           Increasing sales velocity by 20% actually <span class="font-bold text-gray-900">decreased</span> revenue by 8% due to poor onboarding capacity. The model predicted this—leadership didn't believe it until we tested.
                         </p>
