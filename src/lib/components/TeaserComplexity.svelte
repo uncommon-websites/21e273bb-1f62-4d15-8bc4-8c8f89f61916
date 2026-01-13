@@ -77,7 +77,7 @@
             </div>
             
             <!-- Text -->
-            <p class="text-gray-200 text-base leading-relaxed font-medium">
+            <p class="text-base leading-relaxed font-medium" style="color: #ecfdf4;">
               {complexity.text}
             </p>
             
